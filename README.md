@@ -1,5 +1,10 @@
-# Systems Programming HW2 - Chiffon Game System
+# Systems Programming - Chiffon Game System
 
-**Go checkout the full homework SPEC at [link](https://cutt.ly/0REqMML)**.
+## This is a simple implement of fork and pipe/fifo communication.
+## It can deal with the communication between processes.
 
-* Run sample judge: `python3 sample_judge.py`
+### Usage:
+```
+$ make
+$ ./chiffon -n ${player number} -m ${how many game} -l ${lucky number}
+```
